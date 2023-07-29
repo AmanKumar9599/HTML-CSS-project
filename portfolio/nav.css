@@ -1,0 +1,26 @@
+*{margin:0px;
+padding: 0px;
+color:white;
+background-color: blueviolet;}
+div{
+    border: 5px solid white;
+    background-color: black;
+    height:60px;
+    margin: 10px;
+}
+a,input,button{
+    background-color: black;
+}
+#one{
+    font-size: 25px;
+    color:#f08804;
+}
+button{
+    background-color: #f08804;
+}
+input{
+    background-color: white;
+}
+a{
+    margin-right:170px ;
+}
