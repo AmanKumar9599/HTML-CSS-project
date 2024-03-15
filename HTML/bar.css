@@ -1,0 +1,12 @@
+.can{
+    background-color: aquamarine;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    background-color: rgb(209, 181, 24);
+}
+li{
+    list-style-type: none;
+}
