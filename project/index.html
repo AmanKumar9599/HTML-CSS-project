@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="logo.png">
+   <link rel="stylesheet" href="outer.css">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<style>
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  </style>
+  
+</head>
+<body>
+  <div class="main">
+    <div class="side_bar">
+      <div class="icon">
+        <ul>
+          <li><i class="fa-solid fa-house"></i>
+            <a href="#action">Home</a>
+        </li>
+            <li class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#action">Search</a>
+            </li>
+        </ul>
+      </div>
+      <div class="playlist">
+        <a href="#">
+        <img src="library_icon.png" alt="library">
+        </a>
+        <a href="#" >Your library</a>
+        <span class="one">
+        <a href="#" >
+          <i class="fa-solid fa-plus"></i>
+        </a>
+        <a href="#" >
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        </span>
+        
+      <div class="first">
+        <h5>Create your first playlist</h5>
+        <br>
+        <p>It's easy we will help you</p>
+        <br>
+        <button>Create playlist</button>
+      </div>
+      <div class="podcast">
+        <h5>Let's find some podcasts to follow</h5>
+        <br>
+        <p>We'll keep you updated on new episodes</p>
+        <br>
+        <button>Browse podcasts</button>
+      </div>
+    </div>
+  </div>
+    <div class="main_content">
+    <div class="nav">
+      <div class="nav_icon">
+        <img src="backward_icon.png" alt="back">
+      <img src="forward_icon.png" alt="forward" class="hide">
+      </div>
+      <div class="nav_options">
+        <button class="hide" style="width: 150px; height:30px; border:0; border-radius:1rem">Explore Premium</button>
+      <button style="background-color: black; color:white; height:25px; width:100px; border-radius:1rem;border:0 "><i class="fa-regular fa-circle-down"></i> Install App</button>
+      <i id="abc" class="fa-regular fa-bell"></i>
+      <i id="abc" class="fa-regular fa-user"></i>
+      </div>
+    </div>
+    <h2>Recently played</h2>
+    <div class="cards">
+      <div class="inner_cards">
+        <img src="card1img.jpeg" alt="card1">
+        <div class="cont">
+          <h5>Top 50-Global</h5>
+        <p>Your daily update of the most played tracks right...</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="spotify">
+      <span class="head"><a href="#"><h2>Spotify Originals and Podcasts</h2></a>
+      <a class="show" href="#" > show all</a>
+    </span>
+      
+      <div class="original">
+        <div class="orig_cards">
+          <img src="card3img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        <div class="orig_cards">
+          <img src="card2img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        <div class="orig_cards">
+          <img src="card3img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        <div class="orig_cards">
+          <img src="card4img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        <div class="orig_cards">
+          <img src="card2img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spotify">
+      <span class="head"><a href="#"><h2>Featured Charts</h2></a>
+      <a class="show" href="#" > show all</a>
+    </span>
+      
+      <div class="original">
+        <div class="orig_cards">
+          <img src="card5img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        <div class="orig_cards">
+          <img src="card1img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        <div class="orig_cards">
+          <img src="card6img.jpeg" alt="">
+          <div class="cont">
+            <h5>Top 50-Global</h5>
+          <p>Your daily update of the most played tracks right...</p>
+          </div>
+        </div>
+        </div>
+          <div class="foot">
+            <div class="last">
+              <h5>Company</h5>
+              <pre>
+About </pre>
+<pre>Jobs</pre>
+<pre>
+For the Record</pre>
+            </div>
+            <div class="last">
+              <h5>Communities</h5>
+              <pre>
+For Artists </pre>
+<pre>Developers</pre>
+<pre>Advertising</pre>
+<pre>Investors</pre>
+<pre>
+Vendors</pre>
+            </div>
+            <div class="last">
+              <h5>Useful links</h5>
+              <pre>
+Support </pre>
+<pre>
+Free Mobile App
+</pre>
+            </div>
+            <div class="last">
+              <h5>Spotify Plans</h3>
+              <pre>
+Premium Individual</pre>
+<pre>Premium Duo</pre>
+<pre>Premium Family</pre>
+<pre>Premium Student</pre>
+<pre>Spotify Free</pre>
+                
+            </div>
+            <div class="last">
+              <ul>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+              </ul>
+            </div>
+          </div>
+          
+          <footer>
+            <div class="line">
+             <hr>
+            </div>
+            
+        </footer>
+        <div class="asd">
+        <div class="end">
+          <div class="legal">Legal</div>
+          <div class="legal">Safety & Privacy Center</div>
+          <div class="legal">Privacy Policy</div>
+          <div class="legal">Cookies</div>
+          <div class="legal">About Ads</div>
+          <div class="legal">Accessibility</div>
+        </div>
+        <div class="copy_right">© 2024 Spotify AB
+        </div>
+        </div>
+
+      </div>
+      <br><br> <br>
+    </div>
+    <div class="music_player">
+      <div class="music">
+        <img src="card3img.jpeg" alt="">
+        <pre>Day light
+<span class="singer">David Kushner</span>
+</pre>
+
+<i class="fa-regular fa-heart"></i>
+<i class="fa-solid fa-clone"></i>
+      </div>
+      <div class="controls">
+        <div class="con">
+          <img src="player_icon1.png" alt="p1">
+          <img src="player_icon2.png" alt="p2">
+          <img src="player_icon3.png" alt="p3" class="img3">
+          <img src="player_icon4.png" alt="p4">
+          <img src="player_icon5.png" alt="p5">
+        </div>
+        <div class="bar">
+          <span class="curr_time">00:00</span>
+          <input type="range" min="0" max="100" class="play_bar">
+          <span class="tot_time">03:03</span>
+        </div>
+      </div>
+      <div class="functions">
+        <i class="fa-regular fa-circle-play"></i>
+        <i class="fa-solid fa-microphone"></i>
+        <span class="material-symbols-outlined">
+          queue_music
+          </span>
+          <span class="material-symbols-outlined">
+            tap_and_play
+            </span>
+        <label for="speaker"><i class="fa-solid fa-volume-low"></i></label>
+        <input type="range" id="speaker" name="sound" class="play_bar">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
